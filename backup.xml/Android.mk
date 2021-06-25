@@ -133,6 +133,7 @@ LOCAL_MODULE := preinstalled-packages-platform-handheld-product.xml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/sysconfig
+LOCAL_OVERRIDES_PACKAGES := preinstalled-packages-platform-handheld-product.xml
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 include $(BUILD_PREBUILT)
 
