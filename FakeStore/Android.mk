@@ -18,5 +18,3 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_REQUIRED_MODULES := privapp-permissions-com.android.vending.xml
 include $(BUILD_PREBUILT)
-
-$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
